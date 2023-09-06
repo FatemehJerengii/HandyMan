@@ -1,0 +1,58 @@
+@media (min-width:1200px) {}
+
+@media (min-width:992px) and (max-width:1200px) {}
+
+@media (min-width:768px) and (max-width:992px) {}
+
+@media (min-width:540px) and (max-width:768px) {}
+
+@media (max-width:540px) {}
+
+
+
+section.carts {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+section.carts>div {
+    width: 390px;
+    height: 500px;
+    background-color: white;
+    padding: 40px 40px 50px 40px;
+    position: relative;
+    bottom: 100px;
+    margin: 0 20px;
+}
+
+section.carts>div>h3 {
+    font-family: 'Public-Sans';
+    margin: 25px 0;
+}
+
+section.carts>div>p {
+    font-family: 'Public-Sans';
+
+}
+
+section.carts>div>button {
+    width: 130px;
+    height: 40px;
+    border-radius: 45%;
+    background-color: rgb(255, 182, 0);
+    border: none;
+    font-family: 'Public-Sans';
+    font-size: 16px;
+    font-family: 'Public-Sans';
+    margin: 40px 0;
+}
+
+section.carts>div:nth-of-type(1) {}
+
+section.carts>div:nth-of-type(2) {}
+
+section.carts>div:nth-of-type(3) {}

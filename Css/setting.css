@@ -1,0 +1,28 @@
+@media (min-width:1200px){}
+@media (min-width:992px) and (max-width:1200px){}
+@media (min-width:768px) and (max-width:992px){}
+@media (min-width:540px) and (max-width:768px){}
+@media (max-width:540px){}
+
+
+
+*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+}
+
+@font-face {
+                font-family:'Lato' ;
+                src: url(../Fonts/en/lato/Lato-Regular.ttf), url(../Fonts/en/lato/Lato-Light.ttf) , url(../Fonts/en/lato/Lato-Bold.ttf);
+}
+
+@font-face {
+                font-family:'Solway' ;
+                src: url(../Fonts/en/slowly/Solway-Regular.ttf) , url(../Fonts/en/slowly/Solway-Bold.ttf);
+}
+
+@font-face {
+                font-family: 'Public-Sans';
+                src: url(../Fonts/en/static/PublicSans-Regular.ttf),url(../Fonts/en/static/PublicSans-SemiBold.ttf);
+}
